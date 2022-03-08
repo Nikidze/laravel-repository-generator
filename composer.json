@@ -1,0 +1,27 @@
+{
+    "name": "nikidze/laravel-repository-generator",
+    "description": "Generate Repository from Eloquent models",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikidze",
+            "email": "nikidze-backend@ya.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nikidze\\RepositoryGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nikidze\\RepositoryGenerator\\RepositoryServiceProvider"
+            ]
+        }
+    }
+}
